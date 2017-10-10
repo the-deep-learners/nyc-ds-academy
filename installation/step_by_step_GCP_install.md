@@ -12,12 +12,12 @@ N.B.: These are **rough notes** for creating an Ubuntu machine on Google Cloud P
 2. ssh into instance, e.g.: 
 	* [like so](https://cloud.google.com/compute/docs/instances/connecting-to-instance) for GCP
 3. from the home directory (which is typically where your ssh session begins): 
-	* `git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`
+	* `git clone https://github.com/the-deep-learners/nyc-ds-academy.git`
 		* this command retrieves all of the code for this LiveLessons
-		* ...and puts it in a new directory called `TensorFlow-Livelessons`
+		* ...and puts it in a new directory called `nyc-ds-academy`
 4. [install Docker](https://docs.docker.com/engine/installation/linux/ubuntu/) (go from `Install using the repository` through to running the `hello-world` image; the free CE version does everything you need; use `amd64` during repository installation)
 5. create a [firewall rule](https://cloud.google.com/compute/docs/networking?hl=en_US&_ga=1.268488185.92442388.1465331838#firewalls) to add a tag to your instance in your [Compute Engine table](https://console.cloud.google.com/compute) 
-6. follow steps six through nine from my [instructions for installation on Mac OS X](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md)
+6. follow steps six through nine from my [instructions for installation on Mac OS X](https://github.com/the-deep-learners/nyc-ds-academy/blob/master/installation/step_by_step_MacOSX_install.md)
 7. **on your local machine**, navigate to `<EXTERNAL_IP>:8888/?token=<YOUR_TOKEN>` in the web browser of your choice 
 	* the `<EXTERNAL_IP>` of the instance you created is shown in your [Compute Engine table](https://console.cloud.google.com/compute)
 	* `<YOUR_TOKEN>` should have been output by your `docker run` call in the previous step 
