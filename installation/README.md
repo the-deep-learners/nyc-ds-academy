@@ -2,14 +2,14 @@
 
 ## Mac OS X
 
-Detailed step-by-step instructions for running the code notebooks for these LiveLessons on a Mac [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md).
+Detailed step-by-step instructions for running the code notebooks for these LiveLessons on a Mac [here](https://github.com/the-deep-learners/nyc-ds-academy/blob/master/installation/step_by_step_MacOSX_install.md).
 
 
 ## Unix
 
 #### Where You Already Have the Dependencies
 
-The dependencies are provided in this repository's [Dockerfile](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/Dockerfile). They are: 
+The dependencies are provided in this repository's [Dockerfile](https://github.com/the-deep-learners/nyc-ds-academy/blob/master/Dockerfile). They are: 
 
 * the [Jupyter Notebook Scientific Python Stack](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook) 
 * TensorFlow
@@ -18,16 +18,16 @@ The dependencies are provided in this repository's [Dockerfile](https://github.c
 
 If you have these packages configured as you like them, you can simply:
 
-`git clone https://github.com/the-deep-learners/TensorFlow-LiveLessons.git`
+`git clone https://github.com/the-deep-learners/nyc-ds-academy.git`
 
 #### Where You Are Missing Dependencies
 
 1. Get Docker CE for, e.g., [Ubuntu](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
-2. Follow all the steps in my [Step-by-Step Instructions for Mac](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md) that involve executing code at the command line. That is, execute all steps but one, four and five. 
+2. Follow all the steps in my [Step-by-Step Instructions for Mac](https://github.com/the-deep-learners/nyc-ds-academy/blob/master/installation/step_by_step_MacOSX_install.md) that involve executing code at the command line. That is, execute all steps but one, four and five. 
 
 #### In a Fresh Cloud Instance
 
-If you'd like to enjoy the power and flexibility of cloud computing, you can spin up a machine with Google Cloud Compute, Amazon Web Services, Microsoft Azure, or other providers. My rough notes for creating an Ubuntu instance with Google Cloud Compute and launching Dockerized Jupyter notebooks are available [here](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_GCP_install.md). 
+If you'd like to enjoy the power and flexibility of cloud computing, you can spin up a machine with Google Cloud Compute, Amazon Web Services, Microsoft Azure, or other providers. My rough notes for creating an Ubuntu instance with Google Cloud Compute and launching Dockerized Jupyter notebooks are available [here](https://github.com/the-deep-learners/nyc-ds-academy/blob/master/installation/step_by_step_GCP_install.md). 
 
 
 ## Windows
@@ -47,5 +47,5 @@ These steps are for users who installed the [Anaconda](https://www.continuum.io/
 
 ## GPU Considerations
 
-Most of the examples in these LiveLessons involve relatively small (in Deep Learning terms) data sets so you will be in great shape using your CPU alone for training the models. That said, some of the later notebooks in these LiveLessons will train much more quickly if you employ a GPU. Alternatively, you may enjoy leveraging the efficient, highly-parallelised computations that a GPU affords for your own projects. Whatever the reason, here are TensorFlow GPU instructions for [Mac/Unix](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/step_by_step_MacOSX_install.md#bonus-training-models-with-an-nvidia-gpu) or [Windows](https://github.com/the-deep-learners/TensorFlow-LiveLessons/blob/master/installation/windows_TF_GPU.md).  
+Most of the examples in these LiveLessons involve relatively small (in Deep Learning terms) data sets so you will be in great shape using your CPU alone for training the models. That said, some of the later notebooks in these LiveLessons will train much more quickly if you employ a GPU. Alternatively, you may enjoy leveraging the efficient, highly-parallelised computations that a GPU affords for your own projects. Whatever the reason, here are TensorFlow GPU instructions for [Mac/Unix](https://github.com/the-deep-learners/nyc-ds-academy/blob/master/installation/step_by_step_MacOSX_install.md#bonus-training-models-with-an-nvidia-gpu) or [Windows](https://github.com/the-deep-learners/nyc-ds-academy/blob/master/installation/windows_TF_GPU.md).  
 
