@@ -14,7 +14,6 @@ The dependencies are provided in this repository's [Dockerfile](https://github.c
 * the [Jupyter Notebook Scientific Python Stack](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook) 
 * TensorFlow
 * Keras
-* tflearn
 
 If you have these packages configured as you like them, you can simply:
 
