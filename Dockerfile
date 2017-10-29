@@ -5,7 +5,7 @@ MAINTAINER Jon Krohn <jon@untapt.com>
 USER $NB_USER
 
 # install TensorFlow
-RUN conda install --quiet --yes 'tensorflow=1.3*'
+RUN pip install --quiet tensorflow==1.3.*
 
 # install keras: 
 RUN pip install keras==2.0.8
